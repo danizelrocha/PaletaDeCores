@@ -6,7 +6,7 @@ generateButton.addEventListener("click", generateColors);
 function generateColors() {
   colorsDiv.innerHTML = "";
   //gera as cores
-  for (let i = 0; i < 10; i++) { // gera paleta de 5 cores de cada vez
+  for (let i = 0; i < 5; i++) { // gera paleta de 5 cores de cada vez
     const color = generateRandomColor();
     const colorDiv = document.createElement("div");
     colorDiv.style.backgroundColor = color;
