@@ -10,9 +10,9 @@ function generateColors() {
     const color = generateRandomColor();
     const colorDiv = document.createElement("div");
     colorDiv.style.backgroundColor = color;
-    const colorName = document.createElement("p");
+    const colorName = document.createElement("p"); // imprime as cores
     colorName.innerText = color;
-    colorName.style.color = color;
+    colorName.style.color = color; // gera o nome na cor da paleta
     colorDiv.appendChild(colorName);
     colorsDiv.appendChild(colorDiv);
   }
